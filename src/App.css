@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: purple;
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  background-color: #111;
+  display: flex;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  flex-wrap: wrap;
+  padding: 5px;
+  height: 380px;
+  width: 250px;
+}
+
+.display {
+  color: #fff;
+  font-size: 36px;
+  margin: 10px;
+  text-align: right;
+  width: 100%;
+}
+
+.nums-container {
+  width: 75%;
+}
+
+.ops-container {
+  width: 25%;
+}
+
+button {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+button:focus {
+  outline: none;
+}
+
+button.big-v {
+  border-radius: 50px;
+  height: 110px;
+}
+
+button.big-h {
+  border-radius: 50px;
+  width: 110px;
+}
+
+button.orange {
+  background-color: #ee9406;
+  color: #fff;
+}
+
+button.dark-gray {
+  background-color: #323232;
+  color: #fff;
+}
+
+button.light-gray {
+  background-color: #a5a5a5;
+}
+
+button.ac {
+  margin-right: 50%;
+}
